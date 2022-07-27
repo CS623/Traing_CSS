@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+    <style>
+      div.content {
+        background-color: rgb(150, 147, 147);
+        width: 100px;
+        height: 200px;
+        padding: 20px;
+        border: 10px solid green;
+        margin: 40px;
+      }
+      span {
+        border: 1px solid red;
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+      }
+      div.padding {
+        border: 1px solid black;
+        padding: 20px 10px;
+      }
+      div.margin {
+        border: 1px solid rebeccapurple;
+        margin: 20px 10px;
+      }
+      .shape {
+        border: 1px solid burlywood;
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content"></div>
+    <span>Hello CSS</span>
+    <div class="padding">
+      큰 볼에 밀가루 200g을 담는다. 차승원처럼 밀가루 반을 갈라 우측엔 이스트
+      1스푼, 좌측엔 소금을 조금 넣어준다.
+    </div>
+    <div class="margin">
+      큰 볼에 밀가루 200g을 담는다. 차승원처럼 밀가루 반을 갈라 우측엔 이스트
+      1스푼, 좌측엔 소금을 조금 넣어준다.
+    </div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+  </body>
+</html>
